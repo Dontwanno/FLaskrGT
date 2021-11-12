@@ -109,3 +109,5 @@ def create_app(test_config=None):
                The boolean value is: {}'''.format(language, framework, python_version, example, boolean_test)
 
     return app
+
+app = create_app()
